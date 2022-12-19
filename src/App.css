@@ -1,38 +1,1150 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+    text-decoration: none !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li {
+    list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+/* #BCA7E1 */
+:root {
+
+    --purple-dark: #6336B2;
+    --purple-light: #BCA7E1;
+    --navbar-option-color: #6336B2;
+    --button2-background-color: #6336B2;
+    --button2-anchor-color: white;
+    --button2-hover-color: #174EA6;
+    --button1-hover-anchor: #174EA6;
+    --button1-hover-background: white;
+    --button1-hover-border: #174EA6;
+    --button1-hover-background: #F1F3F4;
+    --button1-anchor-color: #1a73e8;
+
+    --heading-color: black;
+    --section-color1: #F8F9FA;
+    /* font-family: 'Roboto', sans-serif; */
+    --font1: 'Roboto', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+
+/*NAVBAR CSS  */
+#NavButton {
+    background-color: var(--button2-background-color) !important;
+    border-radius: 0;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#NavButton:hover {
+    background-color: var(--button2-hover-color) !important;
 }
+
+#NavButton a {
+    color: var(--button2-anchor-color);
+    font-weight: 500;
+    font-size: 2vh;
+    padding: 13px 25px 13px 25px;
+    font-family: var(--font1);
+}
+
+#navAnchor {
+    color: var(--navbar-option-color) !important;
+    font-family: var(--font1);
+    border: 1px solid transparent !important;
+}
+
+#navAnchor:hover {
+    background-color: var(--button1-hover-background) !important;
+    /* color: var(--button1-hover-anchor)  !important; */
+    /* border: 1px solid var(--button1-hover-anchor);
+    border-radius: 3px; */
+}
+
+/* PlatForm Section */
+.PlatformHead {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.PlatformHead h1 {
+    margin-bottom: 20px;
+}
+
+.leftUpper {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    /* text-align: center; */
+}
+
+.HeaderImage {
+    width: 100%;
+    height: 75%;
+    background-image: url('../public/Images/HeaderImage/Header1.jpg');
+    background-size: cover;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 8px; */
+}
+
+.SliderImage {
+    width: 100%;
+    height: auto;
+    margin-bottom: 60px;
+
+}
+
+.SliderInner {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 9px;
+    /* outline: 1px solid black; */
+    /* offset: -3px; */
+
+}
+
+.carousel {
+    width: 100% !important;
+    height: 100%;
+}
+
+.carousel.slide {
+    width: 100%;
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.carousel-inner {
+    width: 80% !important;
+}
+
+.carousel-control-prev {
+    display: none !important;
+}
+
+.carousel-control-next {
+    display: none !important;
+}
+
+.carousel-indicators {
+    display: none !important;
+}
+
+.leftInner h1 {
+    font-size: 50px;
+    width: 100%;
+}
+
+.leftInner p {
+    font-size: 18px;
+    width: 80%;
+    margin: 25px 0 25px 0;
+}
+
+.blueButton {
+    background-color: var(--purple-dark) !important;
+    border-radius: 0 !important;
+    padding: 10px 25px !important;
+    font-size: 18px !important;
+    border-color: #6336B2 !important;
+
+}
+
+.blueButton:hover {
+    background-color: var(--purple-light) !important;
+}
+
+.transparentButton {
+    background-color: transparent !important;
+    color: var(--purple-dark) !important;
+    border-radius: 0 !important;
+    padding: 10px 25px !important;
+    font-size: 18px !important;
+    border-color: transparent !important;
+
+}
+
+.transparentButton:hover {
+    border: 1px solid #F8F9FA !important;
+    /* color: var(--button1-hover-anchor) !important; */
+    background-color: #F8F9FA !important;
+    border-color: var(--purple-dark) !important;
+}
+
+.leftButton {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    flex-direction: row;
+}
+
+.leftButton #UpperButton2 {
+    display: flex;
+    margin-left: 15px;
+    /* width: 100%; */
+    /* justify-content: space-around !important; */
+}
+
+.LeftOuter h2 {
+    font-size: 38px;
+    font-weight: bold;
+    font-family: var(--font1);
+    width: 100%;
+    margin-bottom: 55px;
+    margin-left: 5px;
+}
+
+.LdetailOuter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-left: 5px solid #F1F3F4;
+}
+
+.LdetailOuter h3 {
+    font-size: 22px;
+    margin-left: 35px;
+}
+
+.LdetailOuter p {
+    margin-left: 35px;
+    font-size: 16px;
+    width: 80%;
+}
+
+.midSection3 {
+    background-color: var(--section-color1);
+    margin-top: 150px;
+}
+
+.Fontouter {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: var(--button2-background-color);
+}
+
+.GreyOuter {
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+}
+
+.GreyOuter h4 {
+    margin: 15px 0 15px 0;
+    font-size: 22px;
+}
+
+.GreyOuter p {
+    font-size: 18px;
+    width: 70%;
+}
+
+.DetailimageOuter {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.RDetailimageOuter {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.RightImage {
+    width: 70%;
+    height: 650px;
+    margin-top: 60px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.RightImage img {
+    width: 80%;
+    height: auto;
+    outline: 6px solid var(--purple-light);
+    offset: -9;
+
+}
+
+.StickerArea {
+    margin-top: 80px;
+    /* background-color: var(--purple-dark); */
+}
+
+.StickerHeader {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.StickerHeader h1 {
+    font-size: 42px
+}
+
+.StickerHeader p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    width: 31%;
+}
+
+.PlatformImageAdjust {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin: 15px; */
+    /* background-color: var(--purple-dark); */
+}
+
+.outerPlatform {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* margin: 70px; */
+}
+
+.ImageAdjust {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin: 15px; */
+    background-color: var(--purple-dark);
+}
+
+.ImageOuter {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* margin: 15px; */
+}
+
+.ImageInner {
+    width: 70px;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #1a73e8;
+    margin-bottom: 15px;
+}
+
+.marketImage {
+    width: 90%;
+    height: auto;
+}
+
+/* pricing Tag */
+
+.PriceTagFloat {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.TagNameFlex {
+    width: 60%;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 31px;
+}
+
+.TagNameFlex .personal {
+    flex: 17%;
+    background-color: #F1F3F4;
+    text-align: center;
+
+}
+
+.TagNameFlex .business {
+    flex: 50%;
+    text-align: center;
+    background-color: var(--purple-light);
+    opacity: 0.7;
+}
+
+.PriceDataOuter {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.TagDataBox {
+    flex: 20%;
+    height: 280px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dataFloat {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.gmail {
+    font-size: 22px;
+}
+
+/* .marginLeft{
+    margin: 0;
+} */
+
+.use {
+    font-size: 14px;
+}
+
+.cost {
+    font-size: 22px;
+}
+
+.priceDataInner {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 60%;
+}
+
+.buy {
+    font-size: 16px !important;
+    border-radius: 0 !important;
+    background-color: var(--purple-dark) !important;
+    padding: 12px !important;
+    border-color: var(--purple-dark) !important;
+
+}
+
+.buy:hover {
+    background-color: var(--purple-light) !important;
+}
+
+.CheckBoxOuter {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.CheckBox1 {
+    height: 50px;
+    flex: 37%;
+    border-top: 1px solid lightgray;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    /* border-left: 1px solid lightgray; */
+}
+
+#Check1Bottom {
+    border-bottom: 1px solid lightgray;
+}
+
+.CheckBox1 p {
+    color: #5F6368;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.CheckBox2 {
+    height: 50px;
+    flex: 20%;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.CheckBox3 {
+    height: 50px;
+    flex: 20%;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.CheckBox4 {
+    height: 50px;
+    flex: 20%;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#CheckBox10 .CheckBox1 {
+    border-bottom: 1px solid lightgray !important;
+}
+
+#checkColor {
+    color: green;
+}
+
+/* Review Images */
+
+.review img {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid lightgray;
+}
+
+/* Note Section */
+
+.Note1 {
+    font-size: 12px;
+    color: #5F6368;
+    margin: 20px 0;
+}
+
+.Note2 {
+    font-size: 12px;
+    color: #5F6368;
+
+}
+
+
+/* FAQ SECTION */
+.FaqSection {
+    background-color: var(--section-color1);
+}
+
+.FaqHelpCenter {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    margin-bottom: 10px;
+    border: 1px solid #DADCE0;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+}
+
+.FaqHeading {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 50px; */
+
+}
+
+.FaqHeading h1 {
+    margin-top: 80px;
+    font-size: 42px;
+    font-family: var(--font1);
+    font-weight: 600;
+
+}
+
+.HelpButton {
+
+    border: 1px solid #DADCE0;
+    width: 150px;
+    padding: 15px 25px !important;
+    border-radius: 0 !important;
+    background-color: white !important;
+    border: 1px solid #DADCE0 !important;
+    color: var(--purple-dark) !important;
+}
+
+.HelpButton:hover {
+    border-color: var(--purple-dark) !important;
+    /* color: var(--purple-light) !important; */
+}
+
+.FaqHelpCenter {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.faqFlexItems {
+    margin: 15px;
+}
+
+.cardTop {
+    margin-top: 90px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#faqMain {
+    width: 100%;
+    border-bottom: 1px solid #DADCE0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#FaqQuestion p {
+    flex: 60%;
+    font-size: 18px;
+
+}
+
+#FaqQuestion {
+    margin-bottom: 30px;
+
+}
+
+#faqIcon {
+    font-size: 35px;
+    color: var(--purple-dark);
+    font-size: 35px;
+
+}
+
+#faqIconMore {
+    font-size: 35px;
+    color: var(--purple-dark);
+    margin-bottom: 15px;
+    display: none;
+
+}
+
+#FaqQuestion {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#faqAnswer {
+    margin-bottom: 40px;
+}
+
+
+/* Last Section */
+
+.lastOuter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 130px;
+}
+
+.LastSection {
+    /* background-image: url('../public/Images/wave.png') !important; 
+    background: no-repeat;
+    background-size: cover; */
+}
+
+.Last_sectionImage {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+
+    /* bottom: 20px; */
+}
+
+.Last_sectionImage img {
+    width: 100%;
+    height: auto;
+    /* height: 250px; */
+}
+
+.lastOuter h3 {
+    color: #5F6368;
+}
+
+
+.margin_lastsec {
+    margin: 10px 0;
+}
+
+.last_button {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    border: 1px solid var(--purple-dark);
+}
+
+/* Footer css */
+
+.footerOuter {
+    background-color: var(--section-color1);
+}
+
+.logoSection {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.PrivayList {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+
+}
+
+.PrivayList li {
+    margin: 0px 18px;
+    color: #5F6368;
+
+}
+
+.PrivayList li a {
+    color: #5F6368;
+}
+
+.helpList {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.helpList li {
+    margin: 0px 18px;
+}
+
+.MobileFeature {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .leftUpper {
+        height: 100%;
+    }
+
+    .leftInner h1 {
+        font-size: 34px;
+    }
+
+    .leftSlidehead h2 {
+        font-size: 34px;
+    }
+
+    /* Pricing Section */
+    .StickerHeader h1 {
+        font-size: 34px;
+    }
+
+    .StickerHeader p {
+        width: 100%;
+    }
+
+    #CheckBoxDis {
+        display: none;
+    }
+
+    .priceDataInner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .PriceTagFloat {
+        display: none;
+    }
+
+    .PriceDataOuter {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .TagDataBox {
+        width: 100%;
+        margin-top: 20px;
+        align-items: flex-start;
+
+    }
+
+    .priceDataInner {
+        width: 100%;
+    }
+
+    .marginLeft {
+        margin-left: 15px;
+
+    }
+
+    .gmail {
+        margin-top: 10px;
+    }
+
+    .use {
+        margin-bottom: 0;
+    }
+
+    .dataFloat {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .buy {
+        margin: 10px;
+    }
+
+    .showFeature {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: var(--section-color1);
+    }
+
+    .marginFeature {
+        margin: 10px;
+    }
+
+    .FeatureData {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .MobileFeature {
+        display: contents;
+    }
+
+    /* Faq Section */
+    .FaqHeading h1 {
+        font-size: 34px;
+    }
+
+    /* Footer */
+    .PrivayList li {
+        margin: 0px 6px;
+    }
+
+    .helpList li {
+        margin: 0px 18px;
+
+    }
+
+    .DetailimageOuter {
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .RDetailimageOuter {
+        margin-bottom: 80px;
+    }
+
+    .RightImage {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+
+    .RightImage img {
+        width: 90%;
+        height: 90%;
+    }
+
+    .CheckMobile {
+        color: green;
+    }
+
+    .HeaderImage {
+        width: 90%;
+        height: 75% !important;
+    }
+
+    .SliderImage {
+        width: 100%;
+        height: auto;
+        margin-top: 12px;
+    }
+    .headMargin {
+        margin-top: 50px;
+        font-size: 16px;
+
+    }
+
+    .para_margin {
+        font-size: 16px;
+
+    }
+    
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 992px) {
+    .Upper {
+        margin-top: 65px;
+    }
+
+    .leftUpper {
+        height: 100%;
+    }
+
+    .leftInner h1 {
+        font-size: 34px;
+    }
+
+    .leftSlidehead h2 {
+        font-size: 34px;
+    }
+
+    /* Pricing Section */
+    .StickerHeader h1 {
+        font-size: 34px;
+    }
+
+    .StickerHeader p {
+        width: 100%;
+    }
+
+    #CheckBoxDis {
+        display: none;
+    }
+
+    .priceDataInner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .PriceTagFloat {
+        display: none;
+    }
+
+    .PriceDataOuter {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .TagDataBox {
+        width: 100%;
+        margin-top: 20px;
+        align-items: flex-start;
+
+    }
+
+    .priceDataInner {
+        width: 100%;
+    }
+
+    .marginLeft {
+        margin-left: 15px;
+
+    }
+
+    .gmail {
+        margin-top: 10px;
+    }
+
+    .use {
+        margin-bottom: 0;
+    }
+
+    .dataFloat {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .buy {
+        margin: 10px;
+    }
+
+    .showFeature {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: var(--section-color1);
+    }
+
+    .marginFeature {
+        margin: 10px;
+    }
+
+    .FeatureData {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .MobileFeature {
+        display: contents;
+    }
+
+    .DetailimageOuter {
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .RDetailimageOuter {
+        margin-bottom: 80px;
+    }
+
+    .RightImage {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+
+    .RightImage img {
+        width: 90%;
+        height: 90%;
+    }
+
+    .CheckMobile {
+        color: green;
+    }
+
+    /* Faq Section */
+    .FaqHeading h1 {
+        font-size: 34px;
+    }
+
+    /* Footer */
+    .PrivayList li {
+        margin: 0px 6px;
+    }
+
+    .helpList li {
+        margin: 0px 18px;
+
+    }
+
+    .HeaderImage {
+        width: 100%;
+        height: 97% ;
+    }
+
+    .SliderImage {
+        width: 100%;
+        /* height: 50%; */
+        /* margin-bottom: 10px; */
+        /* margin-top:12px; */
+    }
+
+
+
+    /* .para_margin {
+        margin-bottom:130px;
+    } */
+    .lastOuter {
+        top: -110px !important;
+        /* bottom: 100px; */
+    }
+
+    .last_button {
+        margin-top: 3px;
+    }
+
+    .Last_sectionImage {
+        height: 100%;
+        margin-top: 70px;
+    }
+
+    
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
