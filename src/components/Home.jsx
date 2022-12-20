@@ -261,11 +261,11 @@ const Home = () => {
                                 <div className="TagNameFlex">
                                     <div className="business">
 
-                                        <p>business</p>
+                                        <p></p>
                                     </div>
                                     <div className="personal">
 
-                                        <p>Personal</p>
+                                        <p></p>
                                     </div>
                                 </div>
 
@@ -276,7 +276,7 @@ const Home = () => {
                                     <PriceCard
                                         gmail="Custom alerts bot"
                                         use="1 Eth"
-                                        cost="Cost"
+                                        
                                         BuyNow="Buy Now"
                                         address="https://discord.gg/SW534FBF"
 
@@ -284,14 +284,14 @@ const Home = () => {
                                     <PriceCard
                                         gmail="Stats bot"
                                         use="1 Eth"
-                                        cost="Cost"
+                                        
                                         BuyNow="Buy Now"
                                         address="https://discord.gg/SW534FBF"
                                     />
                                     <PriceCard
                                         gmail="Sale and Listing "
                                         use="1 Eth"
-                                        cost="Cost"
+                                        
                                         BuyNow="Buy Now"
                                         address="https://discord.gg/SW534FBF"
                                     />
@@ -331,11 +331,11 @@ const Home = () => {
                                     icon={<CheckIcon id="checkColor" />}
                                 />
                                 <CheckBox
-                                    checkBox1="Twitter Post Customization "
+                                    checkBox1="*Twitter Post Customization "
                                     icon={<CheckIcon id="checkColor" />}
                                 />
                                 <CheckBox
-                                    checkBox1="Discord bot customization"
+                                    checkBox1="**Discord bot customization"
                                     icon={<CheckIcon id="checkColor" />}
                                 />
                                 <CheckBox
