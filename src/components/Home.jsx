@@ -59,41 +59,6 @@ const Home = () => {
                     </Row>
                 </Container>
             </section>
-            {/* <section className="platformSection">
-                <Container>
-                    <Row>
-                        <Col lg={12} sm={12} md={12}>
-                            <div className="PlatformHead mb-5">
-                                <h1>
-                                    Platforms we Provide
-                                </h1>
-                            </div>
-                        </Col>
-                    </Row>
-                    <Row>
-
-                        <Col lg={2} md={12} sm={12}>
-
-                        </Col>
-                        <Col lg={2} md={12} sm={12}>
-                            <div className="platformOuter">
-                                <TelegramIcon />
-                            </div>
-                        </Col>
-                        <Col lg={2} md={12} sm={12}>
-                            <WhatsAppIcon />
-                        </Col>
-                        <Col lg={2} md={12} sm={12}>
-                            <EmailIcon />
-                        </Col>
-                        <Col lg={2} md={12} sm={12}></Col>
-                        <Col lg={2} md={12} sm={12}></Col>
-
-
-                    
-                    </Row>
-                </Container>
-            </section> */}
             <section className="StickerArea mb-5">
                 <Container>
                     <Row>
@@ -128,43 +93,13 @@ const Home = () => {
                                     PlatformImage={"./Images/platForms/icons8-twitter.svg"}
 
                                 />
-                                {/* <FontImage
-                                    marketPlaceImages={"./Images/platForms/discord-mark-blue.svg"}
-                                />
-                                <FontImage
-                                    marketPlaceImages={"./Images/platForms/icons8-gmail-logo.svg"}
-                                />
-                                <FontImage
-                                    marketPlaceImages={"./Images/platForms/icons8-telegram-app.svg"}
-                                />
-                                <FontImage
-                                    marketPlaceImages={"./Images/platForms/icons8-whatsapp.svg"}
-                                />
 
-                                <FontImage
-                                    marketPlaceImages={"./Images/platForms/Logo blue.svg"}
-                                /> */}
 
 
 
                             </div>
                         </Col>
-                        {/* <Col lg={2} md={2} sm={2}>
 
-                        </Col> */}
-                        {/* <Col lg={2} md={2} sm={2}>
-                        </Col> */}
-
-                        {/* <Col lg={6} md={12} sm={12}>
-                            <div className="ImageAdjust">
-                                
-                            </div>
-                        </Col> */}
-                        {/* <Col lg={2} md={2} sm={2}>
-
-                        </Col>
-                        <Col lg={2} md={2} sm={2}>
-                        </Col> */}
 
 
 
@@ -202,22 +137,6 @@ const Home = () => {
 
                             </div>
                         </Col>
-                        {/* <Col lg={2} md={2} sm={2}>
-
-                        </Col> */}
-                        {/* <Col lg={2} md={2} sm={2}>
-                        </Col> */}
-
-                        {/* <Col lg={6} md={12} sm={12}>
-                            <div className="ImageAdjust">
-                                
-                            </div>
-                        </Col> */}
-                        {/* <Col lg={2} md={2} sm={2}>
-
-                        </Col>
-                        <Col lg={2} md={2} sm={2}>
-                        </Col> */}
 
 
 
@@ -326,14 +245,7 @@ const Home = () => {
                                 <img src="./Images/reviewImages/review1.png" alt="/" className='responisve' />
                             </div>
                         </Col>
-                        {/* <GreyFont
-                            greyHead="Works with other tools"
-                            greyDetail="Gmail works great with desktop clients like Microsoft Outlook, Apple Mail and Mozilla Thunderbird, including contact and event sync."
-                        />
-                        <GreyFont
-                            greyHead="Works with other tools"
-                            greyDetail="Gmail works great with desktop clients like Microsoft Outlook, Apple Mail and Mozilla Thunderbird, including contact and event sync."
-                        /> */}
+
 
                     </Row>
                 </Container>
@@ -523,7 +435,7 @@ const Home = () => {
                 </Container>
 
             </section>
-            <section className="LastSection">
+            <section className="LastSection mt-5">
                 <Container fluid>
                     <Row>
                         <Col lg={12} md={12} sm={12}>
@@ -533,23 +445,20 @@ const Home = () => {
 
                                     <h2 className='margin_lastsec headMargin'>looking for a custom NFT bot service.</h2>
                                     <h3 className='margin_lastsec para_margin'>Join Discord server and create a ticket.</h3>
-                                    <div className=" last_button">
-                                        <BlueButton
-
-                                            Bbutton="Join Discord"
-                                            address="https://discord.gg/SW534FBF"
-                                        />
+                                    <div className=" last_button" >
+                                        <a className='btn btn-primary blueButton'   href='"https://discord.gg/SW534FBF"'> Join Discord</a>
                                     </div>
 
 
                                 </div>
-                                <img src="../Images/wave.png" alt="" srcset="" className='responsive' />
+                                <img src="../Images/wave1.svg" alt="" srcset="" className='responsive' />
                             </div>
                         </Col>
 
                     </Row>
                 </Container>
             </section>
+        
         </main>
     </>)
 }

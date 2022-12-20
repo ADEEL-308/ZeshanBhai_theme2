@@ -11,10 +11,7 @@ function ImgSlider() {
                         alt=""
                     />
                 </div>
-                {/* <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption> */}
+
             </Carousel.Item>
             <Carousel.Item>
                 <div className="SliderInner">
@@ -25,10 +22,6 @@ function ImgSlider() {
                     />
                 </div>
 
-                {/* <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption> */}
             </Carousel.Item>
             <Carousel.Item>
                 <div className="SliderInner">
@@ -38,13 +31,21 @@ function ImgSlider() {
                         alt=""
                     />
                 </div>
+            </Carousel.Item>
+            <Carousel.Item >
+                <div className="nft_alignment">
+                    <div className="nft_outer">
+                        <div className="nft_left shadow" >
+                            <img src="./Images/DisplayImages/Screen Shot 2022-12-13 at 5.39.55 PM.png" alt="" className='responsive' />
+                        </div>
+                        <div className="nft_right shadow">
+                            <img src="./Images/DisplayImages/Screen Shot 2022-12-13 at 5.39.55 PM.png" alt="" className='responsive' />
+                        </div>
 
-                {/* <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
-                </Carousel.Caption> */}
+
+                    </div>
+                </div>
+
             </Carousel.Item>
         </Carousel>
     );

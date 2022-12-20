@@ -29,10 +29,8 @@ li {
     --button1-hover-border: #174EA6;
     --button1-hover-background: #F1F3F4;
     --button1-anchor-color: #1a73e8;
-
     --heading-color: black;
     --section-color1: #F8F9FA;
-    /* font-family: 'Roboto', sans-serif; */
     --font1: 'Roboto', sans-serif;
 }
 
@@ -64,9 +62,6 @@ li {
 
 #navAnchor:hover {
     background-color: var(--button1-hover-background) !important;
-    /* color: var(--button1-hover-anchor)  !important; */
-    /* border: 1px solid var(--button1-hover-anchor);
-    border-radius: 3px; */
 }
 
 /* PlatForm Section */
@@ -91,8 +86,6 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid black; */
-    /* text-align: center; */
 }
 
 .HeaderImage {
@@ -105,7 +98,6 @@ li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* border-radius: 8px; */
 }
 
 .SliderImage {
@@ -123,9 +115,6 @@ li {
     display: flex;
     flex-direction: column;
     border-radius: 9px;
-    /* outline: 1px solid black; */
-    /* offset: -3px; */
-
 }
 
 .carousel {
@@ -193,7 +182,6 @@ li {
 
 .transparentButton:hover {
     border: 1px solid #F8F9FA !important;
-    /* color: var(--button1-hover-anchor) !important; */
     background-color: #F8F9FA !important;
     border-color: var(--purple-dark) !important;
 }
@@ -208,8 +196,6 @@ li {
 .leftButton #UpperButton2 {
     display: flex;
     margin-left: 15px;
-    /* width: 100%; */
-    /* justify-content: space-around !important; */
 }
 
 .LeftOuter h2 {
@@ -256,7 +242,6 @@ li {
     width: 100%;
     height: 400px;
     justify-content: center;
-    /* align-items: center; */
     display: flex;
     flex-direction: column;
 }
@@ -310,7 +295,7 @@ li {
 
 .StickerArea {
     margin-top: 80px;
-    /* background-color: var(--purple-dark); */
+   
 }
 
 .StickerHeader {
@@ -339,8 +324,6 @@ li {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* margin: 15px; */
-    /* background-color: var(--purple-dark); */
 }
 
 .outerPlatform {
@@ -350,7 +333,7 @@ li {
     align-items: center;
     display: flex;
     flex-direction: column;
-    /* margin: 70px; */
+
 }
 
 .ImageAdjust {
@@ -360,7 +343,6 @@ li {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* margin: 15px; */
     background-color: var(--purple-dark);
 }
 
@@ -371,7 +353,7 @@ li {
     align-items: center;
     display: flex;
     flex-direction: column;
-    /* margin: 15px; */
+
 }
 
 .ImageInner {
@@ -390,7 +372,7 @@ li {
 /* pricing Tag */
 
 .PriceTagFloat {
-    /* width: 100%; */
+
     display: flex;
     flex-direction: row-reverse;
 }
@@ -443,9 +425,7 @@ li {
     font-size: 22px;
 }
 
-/* .marginLeft{
-    margin: 0;
-} */
+
 
 .use {
     font-size: 14px;
@@ -488,7 +468,7 @@ li {
     align-items: center;
     display: flex;
     flex-direction: row;
-    /* border-left: 1px solid lightgray; */
+
 }
 
 #Check1Bottom {
@@ -592,7 +572,7 @@ li {
     align-items: center;
     display: flex;
     flex-direction: column;
-    /* margin-top: 50px; */
+
 
 }
 
@@ -617,7 +597,7 @@ li {
 
 .HelpButton:hover {
     border-color: var(--purple-dark) !important;
-    /* color: var(--purple-light) !important; */
+ 
 }
 
 .FaqHelpCenter {
@@ -696,14 +676,10 @@ li {
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: 130px;
+    bottom: 90px;
 }
 
-.LastSection {
-    /* background-image: url('../public/Images/wave.png') !important; 
-    background: no-repeat;
-    background-size: cover; */
-}
+
 
 .Last_sectionImage {
     width: 100%;
@@ -717,7 +693,7 @@ li {
 .Last_sectionImage img {
     width: 100%;
     height: auto;
-    /* height: 250px; */
+
 }
 
 .lastOuter h3 {
@@ -730,8 +706,8 @@ li {
 }
 
 .last_button {
-    margin-top: 40px;
-    margin-bottom: 100px;
+    margin-top: 30px;
+    /* margin-bottom: 0px; */
     border-radius: 5px;
     border: 1px solid var(--purple-dark);
 }
@@ -757,7 +733,7 @@ li {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    /* text-align: center; */
+
 
 }
 
@@ -789,6 +765,57 @@ li {
     display: none;
 }
 
+.nft_alignment{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    /* position: relative; */
+}
+.nft_outer{
+    width: 95%;
+    height:80%;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.nft_left{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    height: 100%;
+    margin-right: 20px;
+}
+.nft_left img{
+
+    width: 80%;
+    height: 80%;
+}
+.nft_right{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    /* position: absolute; */
+   
+}
+.nft_right img{
+
+    width: 80%;
+    height: 80%;
+}
+.nft_alignment{
+    margin-bottom: 60px;
+}
 @media only screen and (max-width: 600px) {
 
     .leftUpper {
@@ -935,8 +962,8 @@ li {
     }
 
     .HeaderImage {
-        width: 90%;
-        height: 75% !important;
+        width: 100% !important;
+        height:auto !important;
     }
 
     .SliderImage {
@@ -954,6 +981,81 @@ li {
         font-size: 16px;
 
     }
+    
+    .nft_alignment{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+       
+        /* margin-bottom: 50px; */
+    }
+    .nft_outer{
+        width: 90% !important;
+        height:80% !important;
+        /* border: 1px solid black; */
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        margin-top: 35px !important;
+    }
+    .nft_left{
+        flex: 30%;
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        /* position: absolute; */
+        height: 100%;
+        width: 70% !important;
+    }
+    .nft_left img{
+        /* margin-top: 10px !important; */
+        width: 80% !important;
+        height: 80% !important;
+    }
+    .nft_right{
+        flex: 30%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        /* position: absolute; */
+       
+    }
+    .nft_right img{
+    
+        width: 80% !important;
+        height: 80%  !important;
+    }
+   
+   
+    .lastOuter {
+        margin-top: 30px !important;
+  
+    }
+    
+    .last_button {
+ 
+        /* margin-top: 15px; */
+        margin-bottom: 65px !important;
+    }
+    
+    
+    .Last_sectionImage {
+        height: 100%;
+        margin-top: 40px;
+    }
+    .Last_sectionImage img {
+        margin-top: 30px !important; 
+    }
+    
+    
+    
     
 
 
@@ -1129,15 +1231,77 @@ li {
         top: -110px !important;
         /* bottom: 100px; */
     }
-
+    
     .last_button {
         margin-top: 3px;
     }
-
+    
     .Last_sectionImage {
         height: 100%;
-        margin-top: 70px;
+        margin-top: 50px;
     }
+    
+    .nft_alignment{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        margin-bottom: 80px;
+    }
+    .nft_outer{
+        width: 100%;
+        height:100%;
+        /* border: 1px solid black; */
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+    }
+    .nft_left{
+        flex: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* position: absolute; */
+        height: 100%;
+    }
+    .nft_left img{
+    
+        width: 80%;
+        height: 80%;
+    }
+    .nft_right{
+        flex: 30%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        /* position: absolute; */
+       
+    }
+    .nft_right img{
+    
+        width: 80%;
+        height: 80%;
+    }
+    .nft_alignment{
+        
+    }
+    #itemsToAlign{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+    
 
     
 
