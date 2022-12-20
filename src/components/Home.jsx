@@ -39,6 +39,7 @@ const Home = () => {
                                             <BlueButton
 
                                                 Bbutton="Join Discord"
+                                                address="https://discord.gg/SW534FBF"
                                             />
                                         </div>
                                         <div className="ms-4">
@@ -274,7 +275,7 @@ const Home = () => {
                                 <div className="priceDataInner">
                                     <PriceCard
                                         gmail="Custom alerts bot"
-                                        use="For Personal use"
+                                        use="1 Eth"
                                         cost="Cost"
                                         BuyNow="Buy Now"
                                         address="https://discord.gg/SW534FBF"
@@ -282,14 +283,14 @@ const Home = () => {
                                     />
                                     <PriceCard
                                         gmail="Stats bot"
-                                        use="For Personal use"
+                                        use="1 Eth"
                                         cost="Cost"
                                         BuyNow="Buy Now"
                                         address="https://discord.gg/SW534FBF"
                                     />
                                     <PriceCard
                                         gmail="Sale and Listing "
-                                        use="For Personal use"
+                                        use="1 Eth"
                                         cost="Cost"
                                         BuyNow="Buy Now"
                                         address="https://discord.gg/SW534FBF"
