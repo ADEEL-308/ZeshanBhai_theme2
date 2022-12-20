@@ -39,7 +39,7 @@ function ImgSlider() {
                             <img src="./Images/DisplayImages/Screen Shot 2022-12-13 at 5.39.55 PM.png" alt="" className='responsive' />
                         </div>
                         <div className="nft_right shadow">
-                            <img src="./Images/DisplayImages/Screen Shot 2022-12-13 at 5.39.55 PM.png" alt="" className='responsive' />
+                            <img src="./Images/DisplayImages/Screen Shot 2022-12-13 at 6.09.13 PM.png"  alt="" className='responsive' />
                         </div>
 
 
